@@ -3,9 +3,6 @@
 - Then in that environment create the code for your ```app.py``` file within the project directory
 - After creating the app.py file and integrating GET requests into the code, run the app locally
 -   add pics
--   By changing and adding the argument ```?name=_____``` in this case added mine, it displayed into the flask app locally.
--   By doing so we can also test different endpoints that we included in the app.py file just by adding an argument at the end of the URL and navigating to the other endpoint
--   add pic "hello from another page"
 
 ## Step 2: Azure API deployment:
 - When having the flask application code ready under the ```app.py``` file, I navigated into the Azure Functions Python HTTP trigger official page and followed its commands as stated below
@@ -22,4 +19,11 @@ sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg)
   - And then directed into the project folder in which a few files and folders automatically were created
   - In that .py file we can transfer the flask app code and convert it into the HTTP format
   - Proceeded with making the recommended changes as stated on the Microsoft website.
-  - 
+  - Then we can see that we have successfully been logged in and deployed
+
+## Step 3: Open API
+- Then edited the Flask app code to include the Swagger/OpenAPi code format by using the flasgger package
+-   By changing and adding the argument ```?name=_____``` in this case added mine, it displayed into the flask app locally.
+-   add pic
+-   By doing so we can also test different endpoints that we included in the app.py file just by adding an argument at the end of the URL and navigating to the other endpoint
+-   add pic "hello from another page"
