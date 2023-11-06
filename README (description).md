@@ -10,8 +10,8 @@
 ## Step 2: Azure API deployment:
 - When having the flask application code ready under the ```app.py``` file, I navigated into the Azure Functions Python HTTP trigger official page and followed its commands as stated below
 - First, I pick the correct type of system, in my case Linux and Debian, since the environment used was Google Shell
-- curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
-sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
+- (curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
+sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg)
   - ```sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/debian/$(lsb_release -rs | cut -d'.' -f 1)/prod $(lsb_release -cs) main" > /etc/apt/sources.list.d/dotnetdev.list'```
   - Begin the APT source update: ```sudo apt-get update```
   - Install the Core tools: ```sudo apt-get install azure-functions-core-tools-4```
