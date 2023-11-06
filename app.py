@@ -6,7 +6,11 @@ Swagger(app)
 
 @app.route('/')
 def home():
-        return f'Hello from my Flask API Endpoint Server'
+        return f'Hello from my Flask API Endpoint Server-Ang!'
+
+@app.route('/anotherpage')
+def anotherpage():
+        return f'Hello from another page :)'
 
 @app.route('/hello', methods=['GET'])
 def hello_get():
@@ -23,7 +27,7 @@ def hello_get():
       200:
         description: A greeting message
     """
-    name = request.args.get('name', 'World')
+    name = request.args.get('name', 'lastname')
     return f'Hello {name}!'
 
 @app.route('/hello', methods=['POST'])
