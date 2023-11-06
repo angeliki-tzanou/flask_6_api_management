@@ -1,10 +1,25 @@
 ## Step 1: Flask-Based RESTful API:
-- Ensure and install Flask into the environment being used, in this case Google Shell
+- Ensure and install Flask into the environment being used, in this case, Google Shell
 - Then in that environment create the code for your ```app.py``` file within the project directory
-- After creating the app.py file and integrating GET requests into the code, ran the app locally
+- After creating the app.py file and integrating GET requests into the code, run the app locally
 -   add pics
 -   By changing and adding the argument ```?name=_____``` in this case added mine, it displayed into the flask app locally.
--   By doing so we can also test different endpoints that we included in the app.py file just by adding the argument at the end of the URL and navigating to the other endpoint
+-   By doing so we can also test different endpoints that we included in the app.py file just by adding an argument at the end of the URL and navigating to the other endpoint
 -   add pic "hello from another page"
 
--   
+## Step 2: Azure API deployment:
+- When having the flask application code ready under the ```app.py``` file, I navigated into the Azure Functions Python HTTP trigger official page and followed its commands as stated below
+- First, I pick the correct type of system, in my case Linux and Debian, since the environment used was Google Shell
+  -  ```curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
+sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg```
+  - ```sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/debian/$(lsb_release -rs | cut -d'.' -f 1)/prod $(lsb_release -cs) main" > /etc/apt/sources.list.d/dotnetdev.list'```
+  - Begin the APT source update: ```sudo apt-get update```
+  - Install the Core tools: ```sudo apt-get install azure-functions-core-tools-4```
+- Then proceeded by creating a virtual environment by following the rest of the commands:
+  - ```python -m venv .venv```, ```source .venv/bin/activate```, If not installed the venv: [```sudo apt-get install python3-venv```]
+- Then went ahead and created a local fx by doing the following:
+  - Creating the fx (in this case named Local Function Proj): ```func init LocalFunctionProj --python -m V2```
+  - And then directed into the project folder in which a few files and folders automatically were created
+  - In that .py file we can transfer the flask app code and convert it into the HTTP format
+  - Proceeded with making the recommended changes as stated on the Microsoft website.
+  - 
