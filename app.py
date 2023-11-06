@@ -30,29 +30,6 @@ def hello_get():
     name = request.args.get('name', 'lastname')
     return f'Hello {name}!'
 
-@app.route('/hello', methods=['POST'])
-def hello_post():
-    """
-    This endpoint returns a greeting message based on the name provided in the JSON body.
-    ---
-    parameters:
-      - name: body
-        in: body
-        required: true
-        schema:
-          id: data
-          required:
-            - name
-          properties:
-            name:
-              type: string
-              default: World
-    responses:
-      200:
-        description: A greeting message
-      400:
-        description: Invalid JSON
-    """
     data = request.get_json()
     if data is None:
         return jsonify({'error': 'Invalid JSON'}), 400
