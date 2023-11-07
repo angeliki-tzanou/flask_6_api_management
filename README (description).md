@@ -56,9 +56,10 @@ sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg)
 <img width="700" alt="Screenshot 2023-11-06 at 12 25 20 PM" src="https://github.com/angeliki-tzanou/flask_6_api_management/assets/141374140/25d9dd0f-116f-4bb1-8edc-b3e5a93ac15c">
 
 -   By doing so we can also test different endpoints that we included in the app.py file just by adding an argument at the end of the URL and navigating to the other endpoint
--   
 <img width="700" alt="Screenshot 2023-11-06 at 12 25 59 PM" src="https://github.com/angeliki-tzanou/flask_6_api_management/assets/141374140/1583a9e7-215c-4e49-9421-6cace6fb">
+
 <img width="700" alt="Screenshot 2023-11-06 at 12 31 48 PM" src="https://github.com/angeliki-tzanou/flask_6_api_management/assets/141374140/a488f898-a5a5-41d8-a43e-711460a59c98">
+
 <img width="700" alt="Screenshot 2023-11-06 at 12 37 26 PM" src="https://github.com/angeliki-tzanou/flask_6_api_management/assets/141374140/f960d18e-01c9-4147-b957-40c02de1237e">
 
 - Then using Flasgger we can also navigate to the app deployment it generated based on our code:
@@ -68,3 +69,5 @@ sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg)
 <img width="700" alt="Screenshot 2023-11-06 at 12 40 34 PM" src="https://github.com/angeliki-tzanou/flask_6_api_management/assets/141374140/90f570b7-724c-4042-8746-b059b9128197">
 
 <img width="700" alt="Screenshot 2023-11-06 at 5 57 46 PM" src="https://github.com/angeliki-tzanou/flask_6_api_management/assets/141374140/5f875046-90ec-4d2c-b232-e65389c539b1">
+
+- Deployed!
