@@ -46,7 +46,6 @@ sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg)
   - Then we can see that we have successfully been logged in and deployed:
 <img width="776" alt="Screenshot 2023-11-06 at 3 22 51 PM" src="https://github.com/angeliki-tzanou/flask_6_api_management/assets/141374140/109e5d8e-970a-4bc4-b49d-464d2be768df">
 <img width="700" alt="Screenshot 2023-11-06 at 2 16 08 PM" src="https://github.com/angeliki-tzanou/flask_6_api_management/assets/141374140/10fd6536-ff86-48fb-8093-209260a8216b">
-<img width="700" alt="Screenshot 2023-11-06 at 5 57 46 PM" src="https://github.com/angeliki-tzanou/flask_6_api_management/assets/141374140/53665960-f531-4c53-9de3-fb80d01feda8">
 
 
 ## Step 3: Open API
@@ -65,4 +64,4 @@ e80e">
 
 <img width="700" alt="Screenshot 2023-11-06 at 12 40 34 PM" src="https://github.com/angeliki-tzanou/flask_6_api_management/assets/141374140/90f570b7-724c-4042-8746-b059b9128197">
 
-
+<img width="1296" alt="Screenshot 2023-11-06 at 5 57 46 PM" src="https://github.com/angeliki-tzanou/flask_6_api_management/assets/141374140/5f875046-90ec-4d2c-b232-e65389c539b1">
