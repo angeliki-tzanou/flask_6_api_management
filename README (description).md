@@ -23,8 +23,6 @@ sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg)
     <img width="700" alt="Screenshot 2023-11-06 at 1 30 19 PM" src="https://github.com/angeliki-tzanou/flask_6_api_management/assets/141374140/ebd32103-ec9b-4df7-8780-5ef01121494d">
 
   - And then directed into the project folder in which a few files and folders automatically were created
-  <img width="700" alt="Screenshot 2023-11-06 at 1 17 59 PM" src="https://github.com/angeliki-tzanou/flask_6_api_management/assets/141374140/e86a88ab-6359-4c68-a627-d7857c902f6e">
-
   - In that .py file we can transfer the flask app code and convert it into the HTTP format
   - Proceeded with making the recommended changes as stated on the Microsoft website.
 - After that proceeded to log into Azure through Google shell by doing the following:
