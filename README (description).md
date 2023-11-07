@@ -42,9 +42,9 @@ sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg)
 - After allowing the command above to complete in the Google shell environment I moved into Azure to App Services where my Flask application appeared
 <img width="700" alt="Screenshot 2023-11-06 at 3 48 34 PM" src="https://github.com/angeliki-tzanou/flask_6_api_management/assets/141374140/1a128d83-f428-4163-9f97-cf9b812dfa23">
 
-- Inside my web app in azure I was able to use the Default domain link provided from which I could access my app, indicating successful deployment message through Azure as shown below:
+- Inside my web app in azure I was able to use the Default domain link provided from which I could access my app, indicating a successful deployment message through Azure as shown below:
   - Then we can see that we have successfully been logged in and deployed:
-<img width="776" alt="Screenshot 2023-11-06 at 3 22 51 PM" src="https://github.com/angeliki-tzanou/flask_6_api_management/assets/141374140/109e5d8e-970a-4bc4-b49d-464d2be768df">
+<img width="700" alt="Screenshot 2023-11-06 at 3 22 51 PM" src="https://github.com/angeliki-tzanou/flask_6_api_management/assets/141374140/109e5d8e-970a-4bc4-b49d-464d2be768df">
 <img width="700" alt="Screenshot 2023-11-06 at 2 16 08 PM" src="https://github.com/angeliki-tzanou/flask_6_api_management/assets/141374140/10fd6536-ff86-48fb-8093-209260a8216b">
 
 
@@ -63,8 +63,8 @@ sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg)
 
 - Then using Flasgger we can also navigate to the app deployment it generated based on our code:
 
-<img width="1284" alt="Screenshot 2023-11-06 at 12 43 25 PM" src="https://github.com/angeliki-tzanou/flask_6_api_management/assets/141374140/ccff67e5-4140-4485-b9ba-ed6f2251f55c">
+<img width="700" alt="Screenshot 2023-11-06 at 12 43 25 PM" src="https://github.com/angeliki-tzanou/flask_6_api_management/assets/141374140/ccff67e5-4140-4485-b9ba-ed6f2251f55c">
 
 <img width="700" alt="Screenshot 2023-11-06 at 12 40 34 PM" src="https://github.com/angeliki-tzanou/flask_6_api_management/assets/141374140/90f570b7-724c-4042-8746-b059b9128197">
 
-<img width="1296" alt="Screenshot 2023-11-06 at 5 57 46 PM" src="https://github.com/angeliki-tzanou/flask_6_api_management/assets/141374140/5f875046-90ec-4d2c-b232-e65389c539b1">
+<img width="700" alt="Screenshot 2023-11-06 at 5 57 46 PM" src="https://github.com/angeliki-tzanou/flask_6_api_management/assets/141374140/5f875046-90ec-4d2c-b232-e65389c539b1">
